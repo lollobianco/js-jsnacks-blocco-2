@@ -11,7 +11,9 @@ if(differenza != 0){
       let n = prompt(`inserisci un numero da aggiungere alla seconda lista`);
       numbers2.push(n);
 
-   }  
+   } 
+   
+   alert (`le due liste sono composte da ${numbers1.length} numeri: ${numbers1} e ${numbers2}`);
 
 }  else{
       alert("La lista è piena");
